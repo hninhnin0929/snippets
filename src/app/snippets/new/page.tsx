@@ -26,6 +26,7 @@ export default function SnippetCreatePage() {
 
     }
 
+
     return (
         <>
         <form action={createSnippet}>
