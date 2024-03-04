@@ -16,6 +16,7 @@ export default async function SnippetShowPage(props: SnippetShowPageProps) {
     });
 
     if(!snippet) {
+        // return <div>Sorry but we can't find that snippet</div>;
         return notFound();
     }
 
