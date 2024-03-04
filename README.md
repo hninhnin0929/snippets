@@ -41,3 +41,4 @@ prisma install
 -npx prisma init --datasource-provider sqlite
 -npx prisma migrate dev
 -npx prisma generate
+-npm install @monaco-editor/react
